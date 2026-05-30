@@ -1,6 +1,7 @@
 import Navbar from './components/Navnar'
 import {Route, Routes, useLocation} from "react-router-dom"
 import Home from './pages/Home'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Route path='/' element={<Home/>}/>
         </Routes>  
       </div>
+      <Footer/>
     </div>
   )
 }
