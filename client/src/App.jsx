@@ -3,7 +3,8 @@ import {Route, Routes, useLocation} from "react-router-dom"
 import Home from './pages/Home'
 import Footer from './components/Footer'
 import AllRooms from './pages/AllRooms'
-import RoomDetail from './components/RoomDetail'
+import RoomDetail from './pages/RoomDetail'
+import MyBooking from './pages/MyBooking'
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/' element={<Home/>}/>
           <Route path="/rooms" element={<AllRooms/>}/>
           <Route path='/rooms/:id' element={<RoomDetail/>}/>
+          <Route path ="/my-bookings" element={<MyBooking/>}/>
         </Routes>  
       </div>
       <Footer/>
