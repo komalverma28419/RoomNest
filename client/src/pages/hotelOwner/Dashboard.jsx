@@ -5,7 +5,7 @@ import { assets, dashboardDummyData } from '../../assets/assets'
 const Dashboard = () => {
   const[DashboardData, setDashboardData] = useState(dashboardDummyData)
   return (
-    <div className='-mb-48'>
+    <div className=''>
       <Title align="left" font="outfit" title="Dashboard" subTitle="Easily oversee room listings, bookings,
        and earnings while gaining valuable insights to optimize performance."/>
        <div className='flex gap-4 my-8'>
